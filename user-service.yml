@@ -3,6 +3,8 @@ spring:
     name: user-service
   zipkin:
     base-url: http://localhost:9411
+server:
+  port: 9081
 eureka:
   client:
     service-url:
